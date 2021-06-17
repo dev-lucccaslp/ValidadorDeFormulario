@@ -1,12 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
 }
 
+/* SCREEN */
 .screen{
     display:flex;
     height:100vh;
 }
 
+/* LEFT SIDE*/
 .leftside{
     flex: 1;
     display: flex;
@@ -15,12 +21,34 @@ body {
 }
 
 .leftside img {
-    max-width: 500px;
+    max-width: 600px;
     height:auto;
 }
+/* RIGHT SIDE*/
 
 .rightside{
     width:400px;
-    background-color:  #DDD;
+    background-color:  #EEE;
+    padding:50px;
 
 }
+
+.rightside label {
+    display:block;
+    margin-bottom: 20px;
+}
+
+.rightside input{
+    width:100%;
+    border: 1px solid #999;
+    border-radius:5px;
+    padding:8px;
+    font-size:14px;
+    outline: 0;
+}
+
+.rightside input:hover {
+       background-color: #BBB; 
+       border: 1px solid white;
+
+}    
