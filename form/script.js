@@ -44,7 +44,7 @@ let validator = {
                         }
                     break;
 
-                    //    
+                    //  verificação e caracteres para email
                     case 'email' :
                         if(input.value != ''){
                             let regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
