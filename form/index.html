@@ -21,15 +21,15 @@
             <form method="POST" action="cadastro.php" class="validator">
                 <label>
                     Seu nome:</br>
-                    <input type="text" name="name" data-rules ="required | min= 2" />
+                    <input type="text" name="name" data-rules ="required" />
                 </label>
                 <label>
                     Seu email:</br>
-                    <input type="text" name="email" />
+                    <input type="text" name="email" data-rules = "required" />
                 </label>
                 <label>
                     Sua senha:</br>
-                    <input type="password" name="password" />
+                    <input type="password" name="password" data-rules = "required" />
                 </label>
                 <label class="button">
                     <input type="submit" value="Cadastrar" />

@@ -58,7 +58,6 @@ body {
 
 }    
 
-
 .rightside a {
     color: #000;
     text-decoration: none;
@@ -66,4 +65,14 @@ body {
 
 .rightside a:hover {
     color: red;   
+}
+
+/*  ERROR   */
+
+.error {
+    font-size:11px;
+    background-color: #FF0000;
+    color: #FFF;
+    padding:4px;
+    border-radius: 5px;
 }
